@@ -1,0 +1,232 @@
+/* Body */
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:cadetblue;
+}
+
+header{
+    background-color: rgb(19, 18, 17);
+    height: 120px;
+    background-repeat: no-repeat;
+    text-align: left;
+}
+
+
+
+
+
+
+h1{
+    font-size: 3em;
+    line-height: 150%;
+    padding-top: 25px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3{
+    
+    font-size: 1.75em;
+}
+
+h5{
+    font-size: 1.95em;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Navigation Bar */
+nav{
+    line-height: 200%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:cadetblue;  
+    font: bold;   
+    font-size: 1.2em;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav a:link{
+    color: #f8f7d2;
+}
+
+nav a:visited{
+    color: #ffffff;
+}
+
+nav a:hover{
+    color: #3f0225;
+}
+
+main{
+    text-align: center;
+    font-family: cursive;
+    font-size: 1.5em;
+}
+
+/*Audio*/
+#audio{
+    float: right;
+}
+
+#wrapper{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(215, 226, 204, 0.431);
+    box-shadow: 4px 4px 4px #333333;
+}
+
+
+.pictureSupport{
+    text-align: center;
+    max-width: 850;
+    max-height: 500;
+    float: left;
+}
+
+
+.accessories ul{
+    list-style-type: none;
+}
+
+
+label{
+    float: left;
+    display: block;
+    text-align: right;
+    width: 8em;
+    padding-right: 1em;
+}
+
+input, textarea{
+    display: block;
+    margin-bottom: 1em;
+}
+
+#mySubmit, #myReset{
+    margin-left: 9.6em;
+}
+
+#myBack{
+    padding-left: 48px;
+}
+
+
+.contact{
+    padding: 3%;
+    float: left;
+    padding-top: 130px;
+}
+
+
+.text{
+    float: right;
+}
+
+
+/*All Column
+#allColoumn{
+    width: 80%;
+    margin-left: 8.5%;
+    margin-right: auto;
+}*/
+
+
+/* Column & Row */
+*{box-sizing: border-box;}
+
+.column {
+    float: left;
+    padding: 10px;
+}
+  
+.left, .middle{
+    width: 50%;
+    padding: 10px;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row img{
+    padding-left: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+*{box-sizing: border-box;}
+
+
+
+.image{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.row{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* Footer */
+footer{
+    background-color: rgb(22, 24, 24);
+    width: 100%;
+    height: 55px;
+}
+
+
+.socialmedia span{
+    padding-top: 10px;
+    font-size: 1.25em;
+    color: white;
+    padding-left: 430px;
+}
+
+.socialmedia img{
+    width: 50px;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

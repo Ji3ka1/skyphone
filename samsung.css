@@ -1,0 +1,126 @@
+/* Body */
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:cadetblue;
+}
+
+header{
+    background-color: rgb(19, 18, 17);
+    height: 120px;
+    background-repeat: no-repeat;
+}
+
+h1{
+    line-height: 150%;
+    padding-top: 25px;
+    font-size: 3em;
+    height: 200px;
+    padding-left: 630px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+h2{
+    text-align:left;
+    text-decoration:underline;
+    font-size: 2.5em;
+}
+
+/* Navigation Bar */
+nav{
+    line-height: 200%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:cadetblue;  
+    font: bold;   
+    font-size: 1.2em;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav a:link{
+    color: #f8f7d2;
+}
+
+nav a:visited{
+    color: #ffffff;
+}
+
+nav a:hover{
+    color: #3f0225;
+}
+
+
+main{
+    font-size: 1.5em;
+    text-align: center;
+    font-family:cursive;
+    background-color:#004cab;
+    color: whitesmoke;
+    padding-top: 2em;
+    padding-left: 1.7em;
+}
+
+
+/*Audio*/
+#audio{
+    float: right;
+}
+
+#wrapper{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(215, 226, 204, 0.431);
+    box-shadow: 4px 4px 4px #333333;
+}
+
+
+/*All Column*/
+#allColoumn{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: auto;
+ }
+
+
+
+ *{box-sizing: border-box;
+ }
+ 
+ .column {
+     float: left;
+     width: 33.33%;
+     padding: 30px;
+   }
+   
+ 
+ .row::after {
+     content: "";
+     clear: both;
+     display: table;
+ }
+
+
+
+/* Footer */
+footer{
+    background-color: rgb(22, 24, 24);
+}
+
+
+.socialmedia span{
+    padding-top: 10px;
+    font-size: 1.25em;
+    color: white;
+    padding-left: 430px;
+}
+
+.socialmedia img{
+    width: 50px;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+}

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Sky Phone- Check Out</title>
+        <link rel="stylesheet" href="checkout.css">
+    </head>
+
+    <body>
+        <div id="wrapper">
+        <header>
+            <a href="index.html">  
+            <img src="images_home/skyphonelogo.png" height="120px" width="140px" align="left"> </a>
+            <h1 style="color: whitesmoke;">Sky Phone</h1>
+        </header>   
+
+        <nav>
+            <a href="index.html">Home</a> &nbsp;&nbsp;
+            <a href="apple.html">Apple</a> &nbsp;&nbsp;
+            <a href="samsung.html">Samsung</a> &nbsp;&nbsp;
+            <a href="oppo.html">Oppo</a> &nbsp;&nbsp;
+            <a href="accessories.html">Accessories</a> &nbsp;&nbsp;
+            <a href="aboutus.html">About Us</a> &nbsp;&nbsp;
+            <a href="contactus.html">Contact Us</a> &nbsp;&nbsp;
+            <a href="checkout.html">Check Out</a> &nbsp;&nbsp;
+        </nav>
+        
+        <main>
+            <h2 style="padding-left: 2em;">Checkout Form</h2>
+        </main>
+
+        <div id="audio">
+            <audio controls autoplay>
+            <source src="audio/memory.mp3" type="audio/ogg">
+            <source src="audio/memory.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        </div>
+
+        <div class="row">
+            <div class="column_left">
+                
+                <h3 style="color: black; margin-bottom: 0px;"><b>Shiping Address</b></h3>
+                <form method="get" action="purchase.html">
+            
+                    <label for="fname">*First Name:</label>
+                    <input type="text" name="fname" id="fname" placeholder="Jackie" required size="30"> 
+                
+                    <label for="lname">*Last Name:</label> 
+                    <input type="text" name="lname" id="lname" placeholder="Chong" required size="30"> 
+
+                    <label for="Addr">*Address</label>
+                    <input type="text" name="Addr" id="Addr" placeholder="No87, Taman ACE, Lebuh Raya" required size="30">
+
+                    
+
+                    <label for="City">*City:</label>
+                    <input type="text" name="City" id="City" placeholder="Sungai Petani" required size="30">
+
+                    <label for="postcode"> Postcode:</label>
+                    <input type="text" name="postcode" id="postcode" placeholder="10001" required size="30">
+                    
+                    <label for="myEmail">*Email:</label>
+                    <input type="email" name="myEmail" id="myEmail" placeholder="jackie102@gmail.com" required size="30">
+        
+                    <label for="states">States</label>
+                    <select id="states" name="states" required>
+                        <option value="pulaupinang">Pulau Pinang</option>
+                        <option value="kedah">Kedah</option>
+                        <option value="perak">Perak</option>
+                        <option value="johor">Johor</option>
+                        <option value="selangor">Selangor</option>
+                        <option value="kelantan">Kelantan</option>
+                        <option value="terengganu">Terengganu</option>
+                        <option value="negerisembilan">Negeri Sembilan</option>
+                        <option value="perlis">Perlis</option>
+                        <option value="melaka">Melaka</option>
+                        <option value="pahang">Pahang</option>
+                        <option value="sabah">Sabah</option>
+                        <option value="sarawak">Sarawak</option>
+                    </select>
+
+                    
+                    <div class="submit"><a href="purchase.html"><input type="submit" id="mySubmit" name="mySubmit"></a></div>
+                </form>
+            </div>
+        </div>
+
+
+
+        <div class="column_right">
+
+            <h3 style="color: black;">Product <span style="padding-left: 15.5em;">Price(Rm)</span></h3>
+           
+
+            <div class="products">
+                <div class="apple">
+                    <select id="apple" name="apple" >
+                        <option value="0">Apple</option>
+                        <option value="4899">iPhone 13 Pro    (RM4,899)</option>
+                        <option value="3399">iPhone 13  (RM 3,399)</option>
+                        <option value="4549">iPhone 12 Pro Max      (RM4,549 / RM5,799)</option>
+                        <option value="3999">iPhone 12   (RM3,399)</option>
+                        <option value="2399">iPhone 11    (RM  2,399)</option>
+                        <option value="4900">iPhone X  RM4,900</option>
+                        <option value="1999">iPhone SE     (RM1,999)</option>
+                        <option value="1999">Apple Watch Series 7 41mm  (RM 1,999)</option>
+                        <option value="2419">Apple Watch Series 7 45mm  (RM 2,419)</option>
+                        <option value="2599">iPad Air (RM 2,599)</option>
+                        <option value="3399">iPad Mini (RM 3,399)</option>
+                        <option value="4799">iPad Pro (RM 4,799)</option>
+                        <option value="419">Apple Pencil (1nd generation) (RM 419.00)</option>
+                        <option value="549">Apple Pencil (2nd generation) (RM 549.00)</option>
+                        <option value="1349">Magic Keyboard (RM1,349)</option>
+                        
+                        
+                        
+                    </select>
+                </div>
+            
+            
+
+            <div class="quantity" style="padding-left: 15px; margin: 15px;">
+                <select id="quantity" name="quantity" style="width: 100px;">
+                    <option>Quantity</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                </select>
+            </div>
+
+            <input class="numbers" name="sub1" size="10" value="0.00" disabled>
+
+          </div>
+
+
+        <div class="samsung">
+
+            <select id="samsung" name="samsung">
+                <option value="0">Samsung</option>
+                <option value="3999">Galaxy Z Flip3 5G    (RM 3,999)</option>
+                <option value="6699">Galaxy Z Fold3 5G  (RM 6,699)</option>
+                <option value="5299">Galaxy Z Fold2 5G      (RM 5,299)</option>
+                <option value="2199">Galaxy S20 FE   (RM 2,199)</option>
+                <option value="2999">Galaxy S21+ 5G   (RM 2,999)</option>
+                <option value="3199">Galaxy S21 Ultra 5G  (RM 3,199)</option>
+                <option value="3299">Galaxy S21 5G     (RM 3,299)</option>
+                <option value="1899">Galaxy S20 FE 5G  (RM 1,899)</option>
+                <option value="3099">Galaxy S20+ BTS Edition (RM 3,099)</option>
+                <option value="2299">Galaxy Note 20 5G (RM 2,299)</option>
+                <option value="2999">Galaxy Note 20 Ultra 5G (RM 2,999)</option>
+                <option value="2199">Galaxy Note 10 Lite (RM 2,199)</option>
+            </select>
+        </div>
+
+        <div class="quantity">
+            <select id="quantity" name="quantity" style="width: 100px;">
+                <option>Quantity</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+            </select>
+        </div>
+
+
+        <input class="numbers" name="subtotal" size="10" value="0.00" disabled>
+
+        <div class="oppo">
+
+                    <select id="oppo" name="oppo">
+                        <option value="0">OPPO</option>
+                        <option value="1299">Oppo A94 64GB   (RM 1,299)</option>
+                        <option value="1399">Oppo A94 128GB   (RM 1,399)</option>
+                        <option value="1099">Oppo A74 5G      (RM 1,099)</option>
+                        <option value="599">Oppo A54 5G 64GB   (RM 599)</option>
+                        <option value="699">Oppo A54 5G 128GB   (RM 699)</option>
+                        <option value="2599">Oppo Reno5 Pro 128GB  (RM 2,599)</option>
+                        <option value="2999">Oppo Reno5 Pro 256GB   (RM 2,999)</option>
+                        <option value="1672">Oppo Reno5 5G 128GB  (RM 1,672)</option>
+                        <option value="1859">Oppo Reno5 5G 128GB (RM 1,859)</option>
+                        <option value="2399">Oppo Reno4 Pro 5G 128GB (RM 2,399)</option>
+                        <option value="2499">Oppo Reno4 Pro 5G 256GB (RM 2,499)</option>
+                        <option value="1699">Oppo Reno4 (RM 1,699)</option>
+                        <option value="2099">Oppo Reno4 z 5G  (RM 2,099</option>
+                        <option value="2599">Oppo Reno3 pro 128GB (RM 2,599) </option>
+                        <option value="2799">Oppo Reno3 pro 256GB (RM  2,799) </option>
+                        <option value="5199">Oppo Find X3 pro 512GB (RM 5,199) </option>
+                        <option value="4599">Oppo Find X2 pro 256BG (RM 4,599) </option>
+                        <option value="4799">Oppo Find X2 pro 512BG (RM 4,799)</option>
+                        <option value="3999">Oppo Find X2 128GB  (RM 3,999)</option>
+                        <option value="4199">Oppo Find X2 256GB  (RM 4,199)</option>
+                    </select>
+                </div>
+
+                <div class="quantity">
+                    <select id="quantity" name="quantity" style="width: 100px;">
+                        <option>Quantity</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select>
+                </div>
+
+                <input class="numbers" name="subtotal" size="10" value="0.00" disabled>
+
+                <div class="samsung">
+
+                    <select id="samsung" name="samsung">
+                        <option value="0">Accessories</option>
+                        <option value="">Phone Case - iPhone 13    (RM 10)</option>
+                        <option value="">Phone Case - iPhone 13 Pro  (RM 10)</option>
+                        <option value="">Phone Case - iPhone 12 Pro Max       (RM 10)</option>
+                        <option value="">Phone Case - iPhone 11    (RM 10</option>
+                        <option value="">Phone Case - iPhone X    (RM 10)</option>
+                        <option value="">Phone Case - Galaxy Z Flip3 5G  (RM 10)</option>
+                        <option value="">Phone Case - Galaxy Z Fold3 5G   (RM 10)</option>
+                        <option value="">Phone Case - Galaxy Z Fold2 5G   (RM 10)</option>
+                        <option value="">Phone Case - Galaxy S20 FE   (RM 10)</option>
+                        <option value="">Phone Case - Galaxy S21+ 5G   (RM 10)</option>
+                        <option value="">Phone Case - Galaxy S21 Ultra 5G   (RM 10)</option>
+                        <option value="">Phone Case - Galaxy S21 5G   (RM 10)</option>
+                        <option value="">Phone Case - Galaxy S20+ BTS Edition (RM 10)</option>
+                        <option value="">Phone Case - Galaxy Note 20 5G   (RM 10)</option>
+                        <option value="">Phone Case - Galaxy Note 20 Ultra 5G   (RM 10)</option>
+                        <option value="">Phone Case - Galaxy Note 10 Lite   (RM 10)</option>
+                        <option value="">Phone Case - Oppo A94   (RM 10)</option>
+                        <option value="">Phone Case - Oppo A74 5G   (RM 10)</option>
+                        <option value="">Phone Case - Oppo A54 5G  (RM 10)</option>
+                        <option value="">Phone Case - Oppo Reno5 pro   (RM 10)</option>
+                        <option value="">Phone Case - Oppo Reno5 5G  (RM 10)</option>
+                        <option value="">Phone Case - Oppo Reno4 pro 5G   (RM 10)</option>
+                        <option value="">Phone Case - Oppo Reno4   (RM 10)</option>
+                        <option value="">Phone Case - Oppo Reno4 z 5G   (RM 10)</option>
+                        <option value="">Phone Case - Oppo Reno3 pro   (RM 10)</option>
+                        <option value="">Phone Case - Oppo Find X3 pro   (RM 10)</option>
+                        <option value="">Phone Case - Oppo Find X2 pro   (RM 10)</option>
+                        <option value="">Phone Case - Oppo Find X2   (RM 10)</option>
+                        <option value="">Ear Phone  - Wired Earphone  (RM 10)</option>
+                        <option value="">Ear Phone  - Wireless Earphone   (RM 60)</option>
+                        <option value="">Ear Phone  - Premium Wired Earphone    (RM 15)</option> 
+                        <option value="">iPhone Cable  (RM 5)    </option>
+                        <option value="">iPhone Cable  (RM 5) Premium</option>
+                        <option value="">Cable Micro- Type B (RM 5)</option>
+                        <option value="">Cable Micro- Type B Premium(RM 7)</option>
+                        <option value="">Cable Micro- Type c (RM 5)</option>
+                        <option value="">Cable Micro- Type c Premium(RM 7)</option>
+                        <option value="">PowerBank  - PowerBank 50000mAh type C, Micro USB fast charging  (RM 60)</option>
+                        <option value="">PowerBank  - PINENG PN962 20000mAh 3 Input Output Quick Charge 3.0 (RM45)</option>
+
+                    </select>
+                </div>
+        
+                <div class="quantity">
+                    <select id="quantity" name="quantity" style="width: 100px;">
+                        <option>Quantity</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select>
+                </div>
+        
+        
+                <input class="numbers" name="subtotal" size="10" value="0.00" disabled>
+
+
+                <div class="payment"> 
+                    <label for="payment" style="margin-top: 2em;">Payment_Method</label>
+                    <select name="payment" id="payment" style="margin-top: 2.3em;">
+                        <option value="online">Online Banking</option>
+                        <option value="credit">Credit/Debit Card</option>
+                        <option value="tng">Touch 'n Go eWallet</option>
+                        <option value="cash">Cash On Delivery</option>
+                    </select>
+                </div>
+               
+
+                    
+                    <!--<div class="submit"><a href="purchase.html"><button>Submit</button></div></a>-->
+                    
+      </div>
+
+
+     
+
+
+
+    
+
+
+      
+        
+        
+
+
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+        <footer class="footLeft"> 
+            <div class="socialmedia">
+                <span><b><i>Find and follow us on:<i></i></b></span>
+                <a href="#"><img src="images_home/facebook.jpg" alt="logo" width="53" height="53"></a>
+                <a href="#"><img src="images_home/instagram.jpg" alt="logo" width="53" height="53"></a>
+                <a href="#"><img src="images_home/tweeter.jpg" alt="logo" width="53" height="53"></a>
+                <a href="#"><img src="images_home/youtube.jpg" alt="logo" width="58 " height="53"></a>
+            </div>
+        </footer>
+
+        
+        </div>
+    </body>
+    
+</html>
